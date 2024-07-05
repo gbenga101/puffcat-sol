@@ -95,13 +95,14 @@ h3{
     color: var(--bg-color);
     font-size: 25px;
     text-align: center;
-    transform: rotate(0deg);
 }
 h4 span{
     font-size: 33px;
 }
 .puff-claw{
     margin: 5px 20%;
+    display: flex;
+    flex-direction: column;
 }
 /*Styling the first 4 claws container*/
 .fclaw{
@@ -117,7 +118,8 @@ h4 span{
     width: 170px;
     height: 210px;
     padding: 20px;
-    background-color: var(--ffont-color);
+    background-color: #E0DEDE;
+    ;
     border-radius: 50% / 50%;
     display: flex;
     align-items: center;
@@ -126,13 +128,23 @@ h4 span{
 /*Rotating each claws*/
 .cl-1{
     transform: rotate(-12.5deg);
-    
 }
+.cl-1 h4{
+    transform: rotate(12.5deg);
+}
+
 .cl-2{
     transform: rotate(12.5deg);
 }
-.cl-4{
+.cl-2 h4{
+    transform: rotate(-12.5deg);
+}
+
+.cl-4 {
     transform: rotate(25deg);
+}
+.cl-4 h4{
+    transform: rotate(-25deg);
 }
 
 /*Positioning claws*/
@@ -141,4 +153,42 @@ h4 span{
 }
 
 /*Adding l-claw*/
+.l-claw{
+    background-image: url(../Assets/iconn\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: -15% auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    padding: 30px;
+}
+.l-claw h4{
+    margin-top: 5%;
+    max-inline-size: 300px;
+    position: relative;
+    top: 10px;
+}
+.l-claw p{
+    margin-top: 25px;
+    color: var(--bg-color);
+    line-height: 2ch;
+    position: relative;
+    top: 8px;
+}
+.socials{
+    margin-bottom: -10px;
+    position: relative;
+    bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
 
+/*Moving to HOW TO BUY SECTION*/
