@@ -1,0 +1,89 @@
+:root{
+    --bg-color: #25170E;
+    --ffont-color: #fff;
+    --header-color: #D59999;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*Styling the whole website*/
+#container{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Declaring the general color*/
+h2, p{
+    color: var(--ffont-color);
+}
+h1, h3{
+    color: var(--header-color);
+}
+/*Declaring General font-family*/
+h1, h2, h3{
+    font-family: 'Cherry Bomb One', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+}
+/*styling the landing main section*/
+main{
+    position: relative;
+    padding-top: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main h2{
+    position: relative;
+    font-size: 2rem;
+    line-height: 26px;
+    top: -80px;
+}
+main h1{
+    font-size: 12rem;
+    position: absolute;
+    top: 80px;
+}
+main img{
+    margin: 0 25%;
+    height: 440px;
+    width: 480px;
+    position: relative;
+    z-index: 1;
+}
+/*Styling the about & partner section*/
+.about, .partners, .puffnomics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+h3{
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+.about p{
+    font-size: 1.2rem;
+    margin: 10px 20%;
+    text-align: center;
+    line-height: 23px;
+}
+/*Finalizing the partners section*/
+.part{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.part img{
+    height: 65px;
+    justify-content: space-between;
+}
