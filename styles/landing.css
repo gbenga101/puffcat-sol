@@ -7,13 +7,17 @@
     box-sizing: border-box;
     margin: 0;
 }
-/*Styling the whole website*/
-#container{
+body{
     background-color: var(--bg-color);
+}
+/*Styling the whole website*/
+body #container{
+    max-width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 /*Declaring the general color*/
 h2, p{
@@ -23,7 +27,7 @@ h1, h3{
     color: var(--header-color);
 }
 /*Declaring General font-family*/
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: 'Cherry Bomb One', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
 }
@@ -86,3 +90,55 @@ h3{
     height: 65px;
     justify-content: space-between;
 }
+/*Styling puffnomics*/
+.puffnomics h4{
+    color: var(--bg-color);
+    font-size: 25px;
+    text-align: center;
+    transform: rotate(0deg);
+}
+h4 span{
+    font-size: 33px;
+}
+.puff-claw{
+    margin: 5px 20%;
+}
+/*Styling the first 4 claws container*/
+.fclaw{
+    margin-top: 15px;
+    display: flex;
+    height: 50ch;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/*Decaring general rule for each claws*/
+.claw{
+    width: 170px;
+    height: 210px;
+    padding: 20px;
+    background-color: var(--ffont-color);
+    border-radius: 50% / 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Rotating each claws*/
+.cl-1{
+    transform: rotate(-12.5deg);
+    
+}
+.cl-2{
+    transform: rotate(12.5deg);
+}
+.cl-4{
+    transform: rotate(25deg);
+}
+
+/*Positioning claws*/
+.bottom{
+    align-self: flex-end;
+}
+
+/*Adding l-claw*/
+
