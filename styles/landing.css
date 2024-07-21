@@ -43,7 +43,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 100vh;
 }
 main h2{
@@ -193,6 +193,7 @@ h4 span{
 }
 
 /*Moving to HOW TO BUY SECTION*/
+<<<<<<< HEAD
 section.preFooter{
     text-align: center;
     margin-bottom: 30px;
@@ -218,3 +219,5 @@ section.preFooter .inst{
 .inst h4, p{
     color: #25170E;
 }
+=======
+>>>>>>> 85d1e99daa8bbff38fe86b6630c8bf415fb9deae
