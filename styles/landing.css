@@ -90,6 +90,7 @@ h3{
 }
 .part img{
     height: 65px;
+    width: auto;
     justify-content: space-between;
 }
 /*Styling puffnomics*/
@@ -115,13 +116,17 @@ h4 span{
     gap: 30px;
 }
 
+/*Positioning settings claws*/
+.bottom{
+    align-self: flex-end;
+}
+
 /*Decaring general rule for each claws*/
 .claw{
     width: 170px;
     height: 210px;
     padding: 20px;
     background-color: #E0DEDE;
-    ;
     border-radius: 50% / 50%;
     display: flex;
     align-items: center;
@@ -143,15 +148,10 @@ h4 span{
 }
 
 .cl-4 {
-    transform: rotate(25deg);
+    transform: rotate(18deg);
 }
 .cl-4 h4{
-    transform: rotate(-25deg);
-}
-
-/*Positioning claws*/
-.bottom{
-    align-self: flex-end;
+    transform: rotate(-18deg);
 }
 
 /*Adding l-claw*/
@@ -216,6 +216,6 @@ section.preFooter .inst{
     align-items: center;
     justify-content: center;
 }
-.inst h4, p{
+.inst h4, .inst p{
     color: #25170E;
 }

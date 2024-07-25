@@ -1,0 +1,94 @@
+@media (max-width: 768px){
+    body{
+        max-width: 100%;
+    }
+    main{
+        justify-content: flex-end;
+        padding: 14% auto 0;
+    }
+    main h2{
+        font-size: 1.8rem;
+    }
+    main img{
+        height: auto;
+    }
+    /*Styling the about & partner section for mobile responsiveness*/
+    .about, .partners, .puffnomics{
+        margin: 15px auto;
+    }
+    /*This heading is affecting all the h3 in the website*/
+    h3{
+        font-size: 2.5rem;
+        margin: 10px auto 25px;
+    }
+    .about p{
+        margin: 10px 12%;
+        text-align: left;
+    }
+    /*Finalizing the partners section*/
+    .part{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+        padding: 0 20px;
+    }
+    /*Styling puffnomics*/
+    .puff-claw{
+        margin: 5px 2%;
+    }
+    /*Styling the first 4 claws container*/
+    .fclaw{
+        justify-content: center;
+        height: 30ch;
+        gap: 20px;
+    }
+    
+    /*Decaring general rule for each claws*/
+    .claw{
+        width: 80px;
+        height: 130px;
+        padding: 20px;
+        background-color: #E0DEDE;
+        border-radius: 50% / 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .puffnomics h4{
+        font-size: 12px;
+    }
+    h4 span{
+        font-size: 17px;
+    }
+
+    /*Restyling l-claw for responsiveness*/
+    .l-claw{
+        background-image: url(../Assets/iconn\ 1.png);
+        width: 380px;
+        height: 320px;
+    }
+    .l-claw h4{
+        font-size: 14px;
+    }
+    .l-claw p{
+        font-size: 14px;
+        margin-top: 30px;
+        top: 20px;
+    }
+    .socials{
+        margin-bottom: -10px;
+        bottom: -10px;
+    }
+
+    /*Rounding up HOW TO BUY SECTION for TAB*/
+    .instruction{
+        margin: auto;
+        gap: 10px;
+    }
+    section.preFooter .inst{
+        width: auto;
+        height: 250px;
+        margin: 5px;
+        padding: 15px 15px 5px;
+    }
+}
