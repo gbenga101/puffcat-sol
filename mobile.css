@@ -34,7 +34,7 @@
     }
     /*Styling puffnomics*/
     .puff-claw{
-        margin: 5px 2%;
+        margin: 5px 5%;
     }
     /*Styling the first 4 claws container*/
     .fclaw{
@@ -48,11 +48,6 @@
         width: 80px;
         height: 130px;
         padding: 20px;
-        background-color: #E0DEDE;
-        border-radius: 50% / 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .puffnomics h4{
         font-size: 12px;
@@ -63,7 +58,6 @@
 
     /*Restyling l-claw for responsiveness*/
     .l-claw{
-        background-image: url(../Assets/iconn\ 1.png);
         width: 380px;
         height: 320px;
     }
@@ -91,4 +85,101 @@
         margin: 5px;
         padding: 15px 15px 5px;
     }
+}
+@media (max-width: 480px) {
+    /*Syling firs section*/
+    main h1{
+        font-size: 8.7rem;
+    }
+    main h2{
+        font-size: 1.2rem;
+    }
+    main img{
+        height: 400px;
+        width: 400px;
+    }
+    /*Styling the about & partner section for mobile responsiveness*/
+    .about, .partners, .puffnomics{
+        margin: 5px auto;
+    }
+    /*This heading is affecting all the h3 in the website*/
+    h3{
+        font-size: 2rem;
+        margin: 10px auto 20px;
+    }
+    .about p{
+        margin: 10px 10%;
+        font-size: 16px;
+    }
+    /*Finalizing the partners section*/
+    .part{
+        gap: 12px;
+        padding: 0 20px;
+    }
+    .part img{
+        height: 50px;
+        width: auto;
+    }
+    /*Styling puffnomics*/
+    .puff-claw{
+        margin: 5px 2%;
+    }
+    /*Styling the first 4 claws container*/
+    .fclaw{
+        height: 27ch;
+        width: auto;
+        gap: 15px;
+    }
+    
+    /*Decaring general rule for each claws*/
+    .claw{
+        height: 115px;
+        border-radius: 50% / 50%;
+    }
+    .puffnomics h4{
+        font-size: 12px;
+    }
+    h4 span{
+        font-size: 15px;
+    }
+
+    /*Restyling l-claw for responsiveness*/
+    .l-claw{
+        width: auto;
+        height: auto;
+        padding: 13%;
+    }
+    .l-claw h4{
+        font-size: 14px;
+    }
+    .l-claw p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .socials{
+        bottom: -25px;
+        height: auto;
+    }
+
+    /*Rounding up HOW TO BUY SECTION for TAB*/
+    section.preFooter .inst{
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+    }
+    .inst h4{
+        font-size: auto;
+    }
+    .inst p{
+        font-size: medium;
+    }
+    /*Testing
+    .instruction{
+        display: flex;
+        flex-direction: column;
+    }
+    .inst{
+        width: auto;
+        height: 150px;
+    }*/   
 }
